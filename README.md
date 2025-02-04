@@ -2,19 +2,19 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-# <h1>osTicket-Setup</h1>
+<h1>osTicket-Setup</h1>
 I will be outlining how I was able to set up osTicket.
 
 
-# <h2>Tools Used</h2>
+<h2>Tools Used</h2>
  - Microsoft Azure
  - Remote Desktop
  - Internet Information Services
 
-# <h2>Operating Systems Used</h2>
+<h2>Operating Systems Used</h2>
  - Windows 10 Pro (22H2)
 
-# <h2>Step By Step Process</h2>
+<h2>Step By Step Process</h2>
 - I started by creating a Windows 10 virtual machine in Azure with 2vcpus & 8GB of memory
 <img width="357" alt="Screenshot 2025-02-03 at 21 01 17" src="https://github.com/user-attachments/assets/aab7990e-3778-498f-bcb1-751ad5b30886" />
 
