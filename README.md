@@ -7,21 +7,26 @@ I will be outlining how I was able to set up osTicket.
 
 
 <h2>Tools Used</h2>
- - Microsoft Azure
- - Remote Desktop
- - Internet Information Services
+
+- Microsoft Azure
+
+- Remote Desktop
+
+- Internet Information Services
 
 <h2>Operating Systems Used</h2>
  - Windows 10 Pro (22H2)
 
 <h2>Step By Step Process</h2>
-- I started by creating a Windows 10 virtual machine in Azure with 2vcpus & 8GB of memory
+- I started by creating a Windows 10 virtual machine in Azure with 2vcpus & 8GB of memory to ensure that the VM ran a reasonable speed.
 <img width="357" alt="Screenshot 2025-02-03 at 21 01 17" src="https://github.com/user-attachments/assets/aab7990e-3778-498f-bcb1-751ad5b30886" />
 
 - From there I used remote desktop to access the virtual machine created in Azure.
 <img width="1148" alt="Screenshot 2025-02-03 at 21 10 05" src="https://github.com/user-attachments/assets/9430e270-634a-474a-a03e-5e27920a1c03" />
 
 - After downloading the osTicket setup folder I typed my VMs loopback address and got the error below due to IIS(Internet Information Services) not being enabled so I proceeded to do so via CGI (Common Gateway Interface)
+<img width="835" alt="Screenshot 2025-02-03 at 21 20 24" src="https://github.com/user-attachments/assets/77427f60-f2fa-4635-9dcb-ab711b9c9aee" />
+
 <img width="1123" alt="Screenshot 2025-02-03 at 21 20 50" src="https://github.com/user-attachments/assets/b44b19a9-6525-4b01-bba1-1bdf4ec04f62" />
 
 <img width="413" alt="Screenshot 2025-02-03 at 21 21 12" src="https://github.com/user-attachments/assets/c58ad520-3e4a-4f2f-95d7-70bca56783dc" />
@@ -35,7 +40,7 @@ I will be outlining how I was able to set up osTicket.
 
 <img width="494" alt="Screenshot 2025-02-03 at 21 25 10" src="https://github.com/user-attachments/assets/b863f47a-369e-4130-a3f0-2f323344b09a" />
 
-- I proceeded to go to the c drive section of the VM and create a new folder called PHP and from there, I went back into the osTicket setup folder and extracted the PHP zip file into the PHP folder.
+- I proceeded to go to the c:\ drive section of the VM and create a new folder called PHP and from there, I went back into the osTicket setup folder and extracted the PHP zip file into the PHP folder.
 <img width="659" alt="Screenshot 2025-02-03 at 21 25 48" src="https://github.com/user-attachments/assets/e8120653-0ebd-4ae6-a491-a2820d627abd" />
 
 <img width="576" alt="Screenshot 2025-02-04 at 03 21 50" src="https://github.com/user-attachments/assets/b19a76b3-6999-4c65-b89e-7664d141ffd8" />
@@ -47,14 +52,14 @@ I will be outlining how I was able to set up osTicket.
 
 <img width="494" alt="Screenshot 2025-02-03 at 21 28 03" src="https://github.com/user-attachments/assets/32fbd601-717b-495e-8afe-90f438f8749d" />
 
-- Most of the things in the osTicket setup folder had been installed however some somethings needed to be done before everything could be installed. I first opened IIS as an administrator in order to register PHP.
+- Most of the things in the osTicket setup folder had been installed however some somethings needed to be done before everything could be installed, one of them involved registering PHP, which I did via IIS as an administrator.
 <img width="747" alt="Screenshot 2025-02-03 at 21 29 51" src="https://github.com/user-attachments/assets/6f2ce7db-95c2-4b51-a4c7-527320e814d4" />
  
 <img width="1279" alt="Screenshot 2025-02-03 at 21 30 42" src="https://github.com/user-attachments/assets/7f32965a-24fc-42cd-a366-45228cd693bd" />
 
 <img width="1099" alt="Screenshot 2025-02-04 at 03 27 44" src="https://github.com/user-attachments/assets/a2f8771a-8fe1-4875-b209-a9ae4deb9687" />
 
-- This was followed up by me extracting the osTicket zip folder and from that folder there was another within called upload which was then cut and pasted to c:\inetpub\wwwroot and renamed to osTicket
+- I followed up by extracting the osTicket zip folder and from that folder there was another within called upload which was then cut and pasted to c:\inetpub\wwwroot and renamed to osTicket.
 <img width="749" alt="Screenshot 2025-02-03 at 21 34 53" src="https://github.com/user-attachments/assets/eab9f4f7-9513-4a23-aae2-03e2ddc88b35" />
 
 <img width="641" alt="Screenshot 2025-02-03 at 21 35 04" src="https://github.com/user-attachments/assets/65316118-567b-4138-bcad-b90a4769a4c8" />
@@ -97,4 +102,5 @@ I will be outlining how I was able to set up osTicket.
 
 <img width="1472" alt="Screenshot 2025-02-03 at 22 17 12" src="https://github.com/user-attachments/assets/e7a153d3-99f7-4e83-99bb-6f3d339dc959" />
 
+- And with this osTicket had been successfully installed.
 <img width="1277" alt="Screenshot 2025-02-04 at 03 48 33" src="https://github.com/user-attachments/assets/e5f950e1-29eb-48ac-9ec2-18f7d36851cd" />
