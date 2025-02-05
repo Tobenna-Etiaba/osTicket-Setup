@@ -9,9 +9,7 @@ I will be outlining how I was able to set up osTicket.
 <h2>Tools Used</h2>
 
 - Microsoft Azure
-
 - Remote Desktop
-
 - Internet Information Services
 
 <h2>Operating Systems Used</h2>
