@@ -13,16 +13,19 @@ I will be outlining how I was able to set up osTicket.
 - Internet Information Services
 
 <h2>Operating Systems Used</h2>
+
  - Windows 10 Pro (22H2)
 
 <h2>Step By Step Process</h2>
-- I started by creating a Windows 10 virtual machine in Azure with 2vcpus & 8GB of memory to ensure that the VM ran a reasonable speed.
+
+- I started by creating a Windows 10 virtual machine in Azure with 2vcpus & 8GB of memory to ensure that the VM ran at a reasonable speed.
+
 <img width="357" alt="Screenshot 2025-02-03 at 21 01 17" src="https://github.com/user-attachments/assets/aab7990e-3778-498f-bcb1-751ad5b30886" />
 
 - From there I used remote desktop to access the virtual machine created in Azure.
 <img width="1148" alt="Screenshot 2025-02-03 at 21 10 05" src="https://github.com/user-attachments/assets/9430e270-634a-474a-a03e-5e27920a1c03" />
 
-- After downloading the osTicket setup folder I typed my VMs loopback address and got the error below due to IIS(Internet Information Services) not being enabled so I proceeded to do so via CGI (Common Gateway Interface)
+- After downloading the osTicket setup folder I typed my VMs loopback address within Microsoft Edge and got the error below due to IIS(Internet Information Services) not being enabled so I proceeded to do so via CGI (Common Gateway Interface)
 <img width="835" alt="Screenshot 2025-02-03 at 21 20 24" src="https://github.com/user-attachments/assets/77427f60-f2fa-4635-9dcb-ab711b9c9aee" />
 
 <img width="1123" alt="Screenshot 2025-02-03 at 21 20 50" src="https://github.com/user-attachments/assets/b44b19a9-6525-4b01-bba1-1bdf4ec04f62" />
