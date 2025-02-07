@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket-Setup</h1>
+<h1>osTicket (Part 1 - Setup)</h1>
 I will be outlining how I was able to set up osTicket.
 
 
