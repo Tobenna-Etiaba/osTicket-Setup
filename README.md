@@ -25,7 +25,7 @@ I will be outlining how I was able to set up osTicket.
 - From there I used remote desktop to access the virtual machine created in Azure.
 <img width="1148" alt="Screenshot 2025-02-03 at 21 10 05" src="https://github.com/user-attachments/assets/9430e270-634a-474a-a03e-5e27920a1c03" />
 
-- After downloading the osTicket setup folder I typed my VMs loopback address within Microsoft Edge and got the error below due to IIS(Internet Information Services) not being enabled so I proceeded to do so via CGI (Common Gateway Interface)
+- After downloading the osTicket setup folder I typed my VMs loopback address within Microsoft Edge and got the error below due to IIS(Internet Information Services) not being enabled so I proceeded to enable it via CGI (Common Gateway Interface)
 <img width="835" alt="Screenshot 2025-02-03 at 21 20 24" src="https://github.com/user-attachments/assets/77427f60-f2fa-4635-9dcb-ab711b9c9aee" />
 
 <img width="1123" alt="Screenshot 2025-02-03 at 21 20 50" src="https://github.com/user-attachments/assets/b44b19a9-6525-4b01-bba1-1bdf4ec04f62" />
@@ -87,7 +87,7 @@ I will be outlining how I was able to set up osTicket.
 
 <img width="1139" alt="Screenshot 2025-02-03 at 21 40 33" src="https://github.com/user-attachments/assets/1f37fd5c-a246-40a9-b586-ca9fedc12edf" />
 
-- After that there were just a few things left to sort which were, installing Heidi SQL which was the last component in the setup folder, and creating a new database.
+- After that there were just a few things left to sort out which were, installing Heidi SQL which was the last component in the setup folder, and creating a new database.
 <img width="1689" alt="Screenshot 2025-02-03 at 21 41 24" src="https://github.com/user-attachments/assets/625eb7af-d5ba-4a33-a611-ef08a1b31a2d" />
 
 <img width="1129" alt="Screenshot 2025-02-03 at 21 46 13" src="https://github.com/user-attachments/assets/ac74d5e4-38d2-4920-9b0a-36595fcbf9e2" />
